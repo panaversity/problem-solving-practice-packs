@@ -1,0 +1,63 @@
+# Pretend-Real File Sizes
+#
+# This file lists the sizes you should imagine each file in `downloads/` having.
+# The actual files are empty stubs (so the pack zip stays small), but realistic
+# AI-assistant practice requires plausible sizes. When the agent asks "how big
+# is each file?", paste the relevant rows from this file as if they were the
+# real `ls -lah` output.
+#
+# Format: <size>  <filename>
+
+   120K  invoice-acme-2024-Q3.pdf
+   118K  invoice-acme-2024-Q4.pdf
+    88K  invoice-globex-march.pdf
+    88K  invoice-globex-march (1).pdf
+    91K  invoice-globex-march-final.pdf
+   340K  Sample_Vendor_MSA_v2.pdf
+   355K  Sample_Vendor_MSA_v2_signed.pdf
+    64K  bank-statement-jan.pdf
+    64K  bank-statement-feb.pdf
+    65K  bank-statement-mar.pdf
+   8.2M  ebook-distributed-systems.pdf
+   5.1M  ebook-react-handbook.pdf
+   2.2M  user-manual-router-AC1900.pdf
+    42K  tax-form-W9-blank.pdf
+    58K  tax-form-W9-completed.pdf
+   4.4M  project-handoff-2023.zip
+    13M  logos-rebrand.zip
+    77M  old-backup-laptop.zip
+    24M  design-assets-final.zip
+    24M  design-assets-final-v2.zip
+   117M  Slack-4.36.0.dmg
+    93M  Zoom-Installer.pkg
+    86M  Notion-Setup.dmg
+   225M  GoogleChrome.dmg
+    63M  node-v20.11.0.pkg
+   171M  obs-studio-30.0.0.dmg
+   480K  Screenshot 2024-09-15 at 10.23.41.png
+   480K  Screenshot 2024-09-15 at 14.02.10.png
+   480K  Screenshot 2024-10-02 at 09.11.55.png
+   480K  Screenshot 2024-10-02 at 09.12.03.png
+   480K  Screenshot 2024-10-18 at 16.45.22.png
+   480K  Screenshot 2024-11-04 at 11.31.07.png
+   480K  Screenshot 2024-11-22 at 13.55.49.png
+   480K  Screenshot 2025-01-09 at 08.17.30.png
+   480K  Screenshot 2025-02-14 at 20.04.12.png
+   480K  Screenshot 2025-03-01 at 07.42.58.png
+   480K  Screenshot 2025-03-19 at 19.20.41.png
+   480K  Screenshot 2025-04-08 at 12.06.33.png
+   2.2M  IMG_4471.HEIC
+   2.1M  IMG_4472.HEIC
+   820K  profile-photo.jpg
+   410K  profile-photo-cropped.jpg
+    64K  Q4-roadmap-DRAFT.docx
+    64K  Q4-roadmap-DRAFT (1).docx
+    71K  Q4-roadmap-final.docx
+    88K  team-okrs-2025.xlsx
+    12K  vendor-list.csv
+   140K  expenses-2024.csv
+   2.0K  untitled.txt
+   2.0K  Untitled-1.txt
+   4.0K  scratch.py
+   4.0K  test (3).py
+   8.0K  notes.md
