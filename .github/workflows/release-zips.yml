@@ -1,0 +1,48 @@
+name: Build Downloadable Zips
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-zips:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create per-pack zips
+        run: |
+          mkdir -p dist
+
+          cd practice-packs
+
+          zip -r ../dist/pack-1-cluttered-folder.zip  01-cluttered-folder  -x '*.git*'
+          zip -r ../dist/pack-2-structured-output.zip 02-structured-output -x '*.git*'
+          zip -r ../dist/pack-3-decomposition.zip     03-decomposition     -x '*.git*'
+          zip -r ../dist/pack-4-worked-example.zip    04-worked-example    -x '*.git*'
+
+          cd ..
+          ls -lh dist/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          body: |
+            ## Problem-Solving Practice Packs — ${{ github.ref_name }}
+
+            Download only the pack you need:
+
+            | Asset | Serves | What you practice |
+            | ----- | ------ | ----------------- |
+            | `pack-1-cluttered-folder.zip`  | Practice 1 (P1)    | Inspect-before-act on a messy folder |
+            | `pack-2-structured-output.zip` | Practice 2 (P2)    | Force AI output into a verifiable shape |
+            | `pack-3-decomposition.zip`     | Practice 4 (P4)    | Big-prompt failure vs decomposed success |
+            | `pack-4-worked-example.zip`    | Part 10 capstone   | Full Understand → Plan → Execute → Reflect loop |
+
+            Each zip contains a single self-contained pack with its own `README.md`. You do not need the other packs to use one pack.
