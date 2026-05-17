@@ -4,14 +4,14 @@ Lesson links in `problem-solving-crash-course.md` should use the **`/releases/la
 
 ## Canonical URLs
 
-| Pack                       | Serves           | URL to use in lesson                                                                                                  |
-| -------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Pack 1 — Cluttered folder  | Practice 1 (P1)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-1-cluttered-folder.zip`  |
-| Pack 2 — Structured output | Practice 2 (P2)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-2-structured-output.zip` |
-| Pack 3 — Decomposition     | Practice 4 (P4)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-3-decomposition.zip`     |
-| Pack 4 — Worked example    | Part 10 capstone | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-4-worked-example.zip`    |
-| Pack 5 — Verification      | Practice 3 (P3)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-5-verification.zip`      |
-| Pack 6 — Persistence       | Practice 5 (P5)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-6-persistence.zip`       |
+| Pack                      | Serves           | URL to use in lesson                                                                                                 |
+| ------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Pack 1 — Cluttered folder | Practice 1 (P1)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-1-cluttered-folder.zip` |
+| Pack 2 — Receipts         | Practice 2 (P2)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-2-receipts.zip`         |
+| Pack 3 — Decomposition    | Practice 4 (P4)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-3-decomposition.zip`    |
+| Pack 4 — Worked example   | Part 10 capstone | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-4-worked-example.zip`   |
+| Pack 5 — Verification     | Practice 3 (P3)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-5-verification.zip`     |
+| Pack 6 — Persistence      | Practice 5 (P5)  | `https://github.com/panaversity/problem-solving-practice-packs/releases/latest/download/pack-6-persistence.zip`      |
 
 ## Rules for lesson-writer
 

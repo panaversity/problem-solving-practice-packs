@@ -22,7 +22,7 @@ jobs:
           cd practice-packs
 
           zip -r ../dist/pack-1-cluttered-folder.zip  01-cluttered-folder  -x '*.git*'
-          zip -r ../dist/pack-2-structured-output.zip 02-structured-output -x '*.git*'
+          zip -r ../dist/pack-2-receipts.zip          02-receipts          -x '*.git*' '*.DS_Store'
           zip -r ../dist/pack-3-decomposition.zip     03-decomposition     -x '*.git*'
           zip -r ../dist/pack-4-worked-example.zip    04-worked-example    -x '*.git*'
           zip -r ../dist/pack-5-verification.zip      05-verification      -x '*.git*'
@@ -43,7 +43,7 @@ jobs:
             | Asset | Serves | What you practice |
             | ----- | ------ | ----------------- |
             | `pack-1-cluttered-folder.zip`  | Practice 1 (P1)    | Inspect-before-act on a messy folder |
-            | `pack-2-structured-output.zip` | Practice 2 (P2)    | Force AI output into a verifiable shape |
+            | `pack-2-receipts.zip`          | Practice 2 (P2)    | Mixed-format receipts — see why code outpaces specialized apps |
             | `pack-3-decomposition.zip`     | Practice 4 (P4)    | Big-prompt failure vs decomposed success |
             | `pack-4-worked-example.zip`    | Part 10 capstone   | Full Understand → Plan → Execute → Reflect loop |
             | `pack-5-verification.zip`      | Practice 3 (P3)    | Ground every claim to source on a staged deliverable |
