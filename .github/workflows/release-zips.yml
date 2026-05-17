@@ -25,6 +25,8 @@ jobs:
           zip -r ../dist/pack-2-structured-output.zip 02-structured-output -x '*.git*'
           zip -r ../dist/pack-3-decomposition.zip     03-decomposition     -x '*.git*'
           zip -r ../dist/pack-4-worked-example.zip    04-worked-example    -x '*.git*'
+          zip -r ../dist/pack-5-verification.zip      05-verification      -x '*.git*'
+          zip -r ../dist/pack-6-persistence.zip       06-persistence       -x '*.git*'
 
           cd ..
           ls -lh dist/
@@ -44,5 +46,7 @@ jobs:
             | `pack-2-structured-output.zip` | Practice 2 (P2)    | Force AI output into a verifiable shape |
             | `pack-3-decomposition.zip`     | Practice 4 (P4)    | Big-prompt failure vs decomposed success |
             | `pack-4-worked-example.zip`    | Part 10 capstone   | Full Understand → Plan → Execute → Reflect loop |
+            | `pack-5-verification.zip`      | Practice 3 (P3)    | Ground every claim to source on a staged deliverable |
+            | `pack-6-persistence.zip`       | Practice 5 (P5)    | Run the same task twice with and without a CLAUDE.md |
 
             Each zip contains a single self-contained pack with its own `README.md`. You do not need the other packs to use one pack.

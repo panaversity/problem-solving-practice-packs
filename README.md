@@ -2,7 +2,7 @@
 
 Companion repository for the **Problem-Solving Crash Course** from [The AI Agent Factory](https://learn.panaversity.org) by Panaversity.
 
-Four small, focused starter packs you can download and use with any AI assistant to practice the techniques taught in the crash course.
+Six small, focused starter packs you can download and use with any AI assistant to practice the techniques taught in the crash course.
 
 ---
 
@@ -24,6 +24,8 @@ You do **not** need to clone this repo. Download only the pack you need.
 | **Pack 2** — Structured output templates   | `pack-2-structured-output.zip` | Practice 2 (P2)  | Forcing an AI answer into a known shape (JSON, table, checklist) so you can verify it                  |
 | **Pack 3** — Big-prompt vs decomposed task | `pack-3-decomposition.zip`     | Practice 4 (P4)  | Watching a single overloaded prompt fail, then solving the same problem by decomposing into steps      |
 | **Pack 4** — Four-phase worked example     | `pack-4-worked-example.zip`    | Part 10 capstone | Running the full Understand → Plan → Execute → Reflect loop end-to-end                                 |
+| **Pack 5** — Q3 variance memo verification | `pack-5-verification.zip`      | Practice 3 (P3)  | Running a verification pass on a staged deliverable to flag ungrounded claims against source files     |
+| **Pack 6** — Hiring loop persistence       | `pack-6-persistence.zip`       | Practice 5 (P5)  | Running the same screening task twice — without and with a `CLAUDE.md` — to feel what persistence buys |
 
 See [`URLS.md`](./URLS.md) for the exact download URLs lesson links use.
 
