@@ -1,0 +1,31 @@
+employee_id,team,role,start_date,end_date
+E0142,Engineering,Senior Software Engineer,2021-03-15,
+E0156,Engineering,Software Engineer II,2021-06-01,
+E0188,Engineering,Staff Software Engineer,2022-01-10,
+E0204,Engineering,Software Engineer,2022-09-19,
+E0231,Engineering,Engineering Manager,2023-02-06,
+E0260,Engineering,Software Engineer,2024-04-22,
+E0271,Engineering,Software Engineer II,2024-08-12,
+E0118,Product,Senior Product Manager,2020-11-02,
+E0175,Product,Product Manager,2021-09-13,
+E0240,Product,Product Designer,2023-05-08,
+E0258,Product,Product Manager,2024-03-04,
+E0103,Marketing,Director of Marketing,2020-06-15,
+E0162,Marketing,Demand Gen Lead,2021-08-09,2024-09-06
+E0212,Marketing,Content Marketer,2022-11-14,
+E0253,Marketing,Growth Marketer,2024-02-26,
+E0125,Sales,VP Sales,2020-12-07,
+E0148,Sales,Account Executive,2021-04-19,
+E0181,Sales,Account Executive,2022-02-14,2024-07-19
+E0218,Sales,Sales Development Rep,2022-12-05,
+E0244,Sales,Account Executive,2023-07-17,
+E0269,Sales,Sales Development Rep,2024-07-29,
+E0134,Finance,Controller,2021-01-25,
+E0193,Finance,Senior FP&A Analyst,2022-04-11,
+E0247,Finance,FP&A Analyst,2023-09-25,
+E0266,Finance,Staff Accountant,2024-06-10,2024-09-13
+E0145,People Ops,Head of People,2021-03-29,
+E0207,People Ops,Recruiter,2022-10-03,
+E0152,Customer Success,Director CS,2021-05-17,
+E0196,Customer Success,CS Manager,2022-05-23,
+E0235,Customer Success,CS Manager,2023-04-04,2024-08-21
